@@ -15,6 +15,12 @@
 
 [Health Check Link](https://devoura-production.up.railway.app/healthCheck/)
 
+## Available Endpoints
+
+- [Scraping Endpoint](https://devoura-production.up.railway.app/api/scrapeData/)
+
+- [Data Listing Endpoint](https://devoura-production.up.railway.app/api/listData/)
+
 
 ## Run Locally
 
