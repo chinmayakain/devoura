@@ -18,13 +18,13 @@
   <img src="https://railway.app/brand/logo-light.png" width="250">
 <p>
 
-</br>
+<div align="center">
 
-<p align="center">
+<a href="https://railway.app/">
+    <h1> Deployed on Railway</h1>
+</a>
 
-### Deployed on [Railway](https://railway.app/).
-
-</p>
+</div>
 
 ## Install
 
