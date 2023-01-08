@@ -18,6 +18,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use("/api", router);
 app.use("/healthCheck", router);
+app.use("/", (req: Request, res: Response, next: NextFunction) => {
+    return res.json({ message: "Hi I'm Devoura!" });
+});
 
 app.use((req: Request, res: Response, next: NextFunction) => {
     next(new createHttpError.NotFound("Invalid Request!"));
