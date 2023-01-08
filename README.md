@@ -43,12 +43,14 @@ npm i
 ## Usage
 
 ```sh
-build : npm run start
+dev : npm run dev
 ```
 
 ```sh
-dev : npm run dev
+build : npm run start
 ```
+
+
 
 ## Run tests
 
