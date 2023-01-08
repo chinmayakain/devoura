@@ -18,7 +18,9 @@
   <img src="https://railway.app/brand/logo-light.png" width="250">
 <p>
 
-Deployed on Railway [Railway](https://railway.app/).
+</br>
+
+### Deployed on [Railway](https://railway.app/).
 
 ## Install
 
@@ -29,11 +31,11 @@ npm i
 ## Usage
 
 ```sh
-For building the project : npm run start,
+build : npm run start,
 ```
 
 ```sh
-For running in development : npm run dev
+dev : npm run dev
 ```
 
 ## Run tests
@@ -47,11 +49,3 @@ npm run test
 👤 **Chinmaya Naik**
 
 -   Github: [@chinmayakain](https://github.com/chinmayakain)
-
-## Stack Used
-
-<p align="center">
-  <img src="https://www.pngwing.com/en/free-png-amxds" width="250" />
-  <img src="https://www.pngwing.com/en/free-png-sreax" width="250" />
-  <img src="" width="250" />
-<p>
