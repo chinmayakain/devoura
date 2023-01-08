@@ -8,9 +8,17 @@
 
 > Devoura is a web scraper server that allows users to extract data from websites and receive the results in a structured format such as CSV or JSON. Provides a web interface and API for users to easily scrape data from any webpage with a simple HTTP request.Built with Node.js, Express, and Cheerio for fast and reliable data extraction from mostly food based ecommerce websites.
 
-### 🏠 [Homepage](https://devoura-production.up.railway.app/)
+### 🏠 Homepage
 
-### ✨ [Demo](https://devoura-production.up.railway.app/)
+[Homepage](https://devoura-production.up.railway.app/)
+
+### Health Check
+
+[Health Check](https://devoura-production.up.railway.app/healthCheck/)
+
+### ✨ Demo
+
+[Demo Link](https://devoura-production.up.railway.app/)
 
 ## Deployment
 
