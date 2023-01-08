@@ -12,6 +12,14 @@
 
 ### ✨ [Demo](https://devoura-production.up.railway.app/)
 
+## Deployment
+
+<p align="center">
+  <img src="https://railway.app/brand/logo-light.png" width="250">
+<p>
+
+Deployed on Railway [Railway](https://railway.app/).
+
 ## Install
 
 ```sh
@@ -21,7 +29,11 @@ npm i
 ## Usage
 
 ```sh
-For building the project : npm run start, For running in development : npm run dev
+For building the project : npm run start,
+```
+
+```sh
+For running in development : npm run dev
 ```
 
 ## Run tests
@@ -34,11 +46,12 @@ npm run test
 
 👤 **Chinmaya Naik**
 
-* Github: [@chinmayakain](https://github.com/chinmayakain)
+-   Github: [@chinmayakain](https://github.com/chinmayakain)
 
-## Show your support
+## Stack Used
 
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+<p align="center">
+  <img src="https://www.pngwing.com/en/free-png-amxds" width="250" />
+  <img src="https://www.pngwing.com/en/free-png-sreax" width="250" />
+  <img src="" width="250" />
+<p>
