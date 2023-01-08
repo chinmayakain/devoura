@@ -19,11 +19,11 @@
 <p>
 
 <div align="center">
-
-<a href="https://railway.app/">
-    <h1> Deployed on Railway</h1>
-</a>
-
+    <h1>
+        <a href="https://railway.app/">
+            Deployed on Railway
+        </a>
+    </h1>
 </div>
 
 ## Install
