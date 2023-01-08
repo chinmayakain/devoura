@@ -1,24 +1,57 @@
-<h1 align="center">Welcome to Devoura 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
-  </a>
-</p>
+
+# Welcom to Devoura! 👋
+
+
+## About
 
 > Devoura is a web scraper server that allows users to extract data from websites and receive the results in a structured format such as CSV or JSON. Provides a web interface and API for users to easily scrape data from any webpage with a simple HTTP request.Built with Node.js, Express, and Cheerio for fast and reliable data extraction from mostly food based ecommerce websites.
 
-### 🏠 Homepage
 
-[Homepage](https://devoura-production.up.railway.app/)
-
-### Health Check
-
-[Health Check](https://devoura-production.up.railway.app/healthCheck/)
-
-### ✨ Demo
+## Demo
 
 [Demo Link](https://devoura-production.up.railway.app/)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/chinmayakain/devoura.git
+```
+
+Go to the project directory
+
+```bash
+  cd devoura
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Authors
+
+- [@chinmayanaik](https://www.github.com/chinmayakain)
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`PORT`
+
+`MONGO_DB_URI`
+
 
 ## Deployment
 
@@ -26,6 +59,7 @@
   <img src="https://railway.app/brand/logo-light.png" width="250">
 <p>
 
+ 
 <div align="center">
     <h1>
         <a href="https://railway.app/">
@@ -33,33 +67,3 @@
         </a>
     </h1>
 </div>
-
-## Install
-
-```sh
-npm i
-```
-
-## Usage
-
-```sh
-dev : npm run dev
-```
-
-```sh
-build : npm run start
-```
-
-
-
-## Run tests
-
-```sh
-npm run test
-```
-
-## Author
-
-👤 **Chinmaya Naik**
-
--   Github: [@chinmayakain](https://github.com/chinmayakain)
