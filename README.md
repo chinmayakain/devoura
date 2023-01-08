@@ -11,6 +11,10 @@
 
 [Demo Link](https://devoura-production.up.railway.app/)
 
+## Health Check
+
+[Health Check Link](https://devoura-production.up.railway.app/healthCheck/)
+
 
 ## Run Locally
 
@@ -51,6 +55,11 @@ To run this project, you will need to add the following environment variables to
 `PORT`
 
 `MONGO_DB_URI`
+
+
+## Features or Limitations
+
+- Currenlty hardcoded to a certain website for scraping.
 
 
 ## Deployment
