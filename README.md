@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Web Scrapper 👋</h1>
+<h1 align="center">Welcome to Devoura 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A web scraper server that allows users to extract data from websites and receive the results in a structured format such as CSV or JSON. Provides a web interface and API for users to easily scrape data from any webpage with a simple HTTP request.Built with Node.js, Express, and Cheerio for fast and reliable data extraction from mostly food based ecommerce websites.
+> Devoura is a web scraper server that allows users to extract data from websites and receive the results in a structured format such as CSV or JSON. Provides a web interface and API for users to easily scrape data from any webpage with a simple HTTP request.Built with Node.js, Express, and Cheerio for fast and reliable data extraction from mostly food based ecommerce websites.
 
 ### 🏠 [Homepage](https://devoura-production.up.railway.app/)
 
@@ -20,7 +20,11 @@
 
 </br>
 
+<p align="center">
+
 ### Deployed on [Railway](https://railway.app/).
+
+</p>
 
 ## Install
 
@@ -31,7 +35,7 @@ npm i
 ## Usage
 
 ```sh
-build : npm run start,
+build : npm run start
 ```
 
 ```sh
