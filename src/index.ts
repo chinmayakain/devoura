@@ -17,6 +17,7 @@ mongoose.set("strictQuery", false);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use("/api", router);
+app.use("/healthCheck", router);
 
 app.use((req: Request, res: Response, next: NextFunction) => {
     next(new createHttpError.NotFound("Invalid Request!"));

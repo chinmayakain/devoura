@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import { isEmpty } from "lodash";
 
 import { Product } from "../models/product";
@@ -26,4 +26,20 @@ const getData = async (req: Request, res: Response) => {
     }
 };
 
-export { getData };
+const healthCheck = async (req: Request, res: Response, next: NextFunction) => {
+    const healthcheck = {
+        uptime: process.uptime(),
+        message: "Server is healthy!",
+        timestamp: Date.now(),
+    };
+    try {
+        return res.json(healthcheck);
+    } catch (error: any) {
+        healthcheck.message = error;
+        return res.status(503).json({
+            message: `Server has crashed! ${healthcheck.message}`,
+        });
+    }
+};
+
+export { getData, healthCheck };
