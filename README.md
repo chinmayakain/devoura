@@ -65,7 +65,7 @@ To run this project, you will need to add the following environment variables to
 
 ## Features or Limitations
 
-- Currenlty limited to a certain website for scraping.
+- Currenlty limited to a certain website for data scraping.
 
 
 ## Deployment
