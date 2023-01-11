@@ -11,16 +11,6 @@
 
 [Demo Link](https://devoura-production.up.railway.app/)
 
-## Health Check
-
-[Health Check Link](https://devoura-production.up.railway.app/healthCheck/)
-
-## Available Endpoints
-
-- [Scraping Endpoint](https://devoura-production.up.railway.app/api/scrapeData/)
-
-- [Data Listing Endpoint](https://devoura-production.up.railway.app/api/listData/)
-
 
 ## Run Locally
 
@@ -52,6 +42,31 @@ Start the server
 ## Authors
 
 - [@chinmayanaik](https://www.github.com/chinmayakain)
+
+## API Reference
+
+#### Health Check
+
+```http
+  GET /healthCheck/
+```
+
+#### List all items
+
+```http
+  GET /api/listData/
+```
+#### Scrape pages
+
+```http
+  GET /api/scrapeData/
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `url`      | `string` | **Required** url of page to be scraped |
+| `baseUrl`      | `string` | (optional) based url of page to be scraped |
+
 
 
 ## Environment Variables
