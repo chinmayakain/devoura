@@ -65,7 +65,7 @@ Start the server
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `url`      | `string` | **Required** url of page to be scraped |
-| `baseUrl`      | `string` | (optional) based url of page to be scraped |
+| `baseUrl`      | `string` | (optional) base url of page to be scraped |
 
 
 
